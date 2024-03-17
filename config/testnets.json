@@ -1,7 +1,7 @@
 {
     "sepolia": {
         "chain_id": 11155111,
-        "rpc": "https://rpc.ankr.com/eth/aacae83934a4a93c491a94d4d47304c54ff32fea4f8e92b795038e3eb0e2e116",
+        "rpc": "https://rpc.ankr.com/eth_sepolia/aacae83934a4a93c491a94d4d47304c54ff32fea4f8e92b795038e3eb0e2e116",
         "subgraph": "https://api.studio.thegraph.com/query/68263/perseus/v0.0.1",
         "query_contract": "0xF0dDdeb917061e12613F9CFc1A3065fb8B3F5c46",
         "knockout_tick_width": 16
