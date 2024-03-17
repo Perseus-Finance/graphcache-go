@@ -1,34 +1,9 @@
 {
-    "goerli": {
-        "chain_id": 5,
-        "rpc": "https://goerli.infura.io/v3/4741d1713bff4013bc3075ed6e7ce091",
-        "subgraph": "https://api.thegraph.com/subgraphs/name/crocswap/croc-testnet",
-        "query_contract": "0xc9900777baa5EE94Cd2C6509fb09278A1A46b7e8",
-        "knockout_tick_width": 64
-    },
-
-    "scrollSepolia": {
-        "chain_id": 534351,
-        "rpc": "https://sepolia-rpc.scroll.io",
-        "subgraph": "https://api.studio.thegraph.com/query/47610/croc-scroll-sepolia/version/latest",
-        "query_contract": "0x43eC1302FE3587862e15B2D52AD9653575FD79e9",
-        "knockout_tick_width": 1
-    },
-    
     "sepolia": {
         "chain_id": 11155111,
-        "rpc": "https://sepolia.infura.io/v3/4741d1713bff4013bc3075ed6e7ce091",
-        "subgraph": "https://api.studio.thegraph.com/query/47610/croc-sepolia/version/latest",
-        "query_contract": "0xDB182F4687708D0F5798c77b4d02ad3425f4B672",
+        "rpc": "https://rpc.ankr.com/eth/aacae83934a4a93c491a94d4d47304c54ff32fea4f8e92b795038e3eb0e2e116",
+        "subgraph": "https://api.studio.thegraph.com/query/68263/perseus/v0.0.1",
+        "query_contract": "0xF0dDdeb917061e12613F9CFc1A3065fb8B3F5c46",
         "knockout_tick_width": 16
-    },
-
-    "blastSepolia": {
-        "chain_id": 168587773,
-        "rpc": "https://sepolia.blast.io",
-        "subgraph": "https://api.studio.thegraph.com/query/47610/croc-blast-sepolia/version/latest",
-        "query_contract": "0x7757BAEC9c492691eAE235c6f01FB99AaA622975",
-        "knockout_tick_width": 1
     }
-    
 }

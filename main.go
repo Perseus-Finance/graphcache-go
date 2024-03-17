@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	var netCfgPath = flag.String("netCfg", "./config/networks.json", "network config file")
+	var netCfgPath = flag.String("netCfg", "./config/testnets.json", "network config file")
 	var apiPath = flag.String("apiPath", "gcgo", "API server root path")
 	var noRpcMode = flag.Bool("noRpcMode", false, "Run in mode with no RPC calls")
 	flag.Parse()
